@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Wallet\LegacyKeysImporter.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Wallet\WalletAsyncContextCounter.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Wallet\WalletErrors.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Wallet\WalletGreen.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Wallet\WalletRpcServer.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Wallet\WalletSerializationV1.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Wallet\WalletSerializationV2.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Wallet\WalletUtils.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\WalletLegacy\KeysStorage.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletHelper.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletLegacy.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletLegacySerialization.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletLegacySerializer.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletTransactionSender.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletUnconfirmedTransactions.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletUserTransactionsCache.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\IFusionManager.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\LegacyKeysImporter.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\WalletAsyncContextCounter.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\WalletErrors.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\WalletGreen.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\WalletIndices.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\WalletRpcServer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\WalletRpcServerCommandsDefinitions.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\WalletRpcServerErrorCodes.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\WalletSerializationV1.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\WalletSerializationV2.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Wallet\WalletUtils.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\KeysStorage.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletHelper.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletLegacy.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletLegacyEvent.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletLegacySerialization.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletLegacySerializer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletRequest.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletSendTransactionContext.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletTransactionSender.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletUnconfirmedTransactions.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletUserTransactionsCache.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\WalletLegacy\WalletUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

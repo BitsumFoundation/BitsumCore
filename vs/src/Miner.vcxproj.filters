@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Miner\BlockchainMonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Miner\Miner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Miner\MinerManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Miner\MiningConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Miner\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Miner\BlockchainMonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Miner\Miner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Miner\MinerEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Miner\MinerManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Miner\MiningConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{65A0D4E5-57F3-3E81-9C10-0D9EC4C477C0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F843E555-AAE5-31DB-B3A7-04A9145CC0F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\blake256.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\chacha8.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\crypto-ops-data.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\crypto-ops.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\crypto.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\groestl.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\hash-extra-blake.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\hash-extra-groestl.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\hash-extra-jh.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\hash-extra-skein.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\hash.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\jh.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\keccak.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\oaes_lib.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\random.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\skein.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\slow-hash.c" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\slow-hash.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\crypto\tree-hash.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\aesb.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\blake256.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\chacha8.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\crypto-ops.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\crypto.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\generic-ops.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\groestl.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\groestl_tables.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\hash-ops.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\hash.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\initializer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\jh.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\keccak.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\oaes_config.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\oaes_lib.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\random.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\skein.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\skein_port.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\crypto\slow-hash.inl" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{C708364B-332E-34E0-819C-DD488883753C}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>wallet-cli</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\Core\build\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">SimpleWallet.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">wallet-cli</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\Core\build\src\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">SimpleWallet.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">wallet-cli</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">SimpleWallet.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">wallet-cli</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\Wallet.lib;Debug\NodeRpcProxy.lib;Debug\Transfers.lib;Debug\Rpc.lib;Debug\P2P.lib;..\external\miniupnpc\Debug\miniupnpc.lib;Debug\Http.lib;Debug\Serialization.lib;Debug\CryptoNoteCore.lib;Debug\System.lib;Debug\Logging.lib;Debug\Common.lib;Debug\Crypto.lib;D:\boost\lib64-msvc-141\libboost_system-vc141-mt-sgd-1_64.lib;D:\boost\lib64-msvc-141\libboost_filesystem-vc141-mt-sgd-1_64.lib;D:\boost\lib64-msvc-141\libboost_thread-vc141-mt-sgd-1_64.lib;D:\boost\lib64-msvc-141\libboost_date_time-vc141-mt-sgd-1_64.lib;D:\boost\lib64-msvc-141\libboost_chrono-vc141-mt-sgd-1_64.lib;D:\boost\lib64-msvc-141\libboost_regex-vc141-mt-sgd-1_64.lib;D:\boost\lib64-msvc-141\libboost_serialization-vc141-mt-sgd-1_64.lib;D:\boost\lib64-msvc-141\libboost_program_options-vc141-mt-sgd-1_64.lib;D:\boost\lib64-msvc-141\libboost_atomic-vc141-mt-sgd-1_64.lib;iphlpapi.lib;Debug\Serialization.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>W:/Projects/Bitsum/Core/build/src/Debug/wallet-cli.lib</ImportLibrary>
+      <ProgramDataBaseFile>W:/Projects/Bitsum/Core/build/src/Debug/wallet-cli.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\Wallet.lib;RelWithDebInfo\NodeRpcProxy.lib;RelWithDebInfo\Transfers.lib;RelWithDebInfo\Rpc.lib;RelWithDebInfo\P2P.lib;..\external\miniupnpc\RelWithDebInfo\miniupnpc.lib;RelWithDebInfo\Http.lib;RelWithDebInfo\Serialization.lib;RelWithDebInfo\CryptoNoteCore.lib;RelWithDebInfo\System.lib;RelWithDebInfo\Logging.lib;RelWithDebInfo\Common.lib;RelWithDebInfo\Crypto.lib;D:\boost\lib64-msvc-141\libboost_system-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_filesystem-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_thread-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_date_time-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_chrono-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_regex-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_serialization-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_program_options-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_atomic-vc141-mt-s-1_64.lib;iphlpapi.lib;RelWithDebInfo\Serialization.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>W:/Projects/Bitsum/Core/build/src/RelWithDebInfo/wallet-cli.lib</ImportLibrary>
+      <ProgramDataBaseFile>W:/Projects/Bitsum/Core/build/src/RelWithDebInfo/wallet-cli.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4345</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\Wallet.lib;Release\NodeRpcProxy.lib;Release\Transfers.lib;Release\Rpc.lib;Release\P2P.lib;..\external\miniupnpc\Release\miniupnpc.lib;Release\Http.lib;Release\Serialization.lib;Release\CryptoNoteCore.lib;Release\System.lib;Release\Logging.lib;Release\Common.lib;Release\Crypto.lib;D:\boost\lib64-msvc-141\libboost_system-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_filesystem-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_thread-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_date_time-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_chrono-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_regex-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_serialization-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_program_options-vc141-mt-s-1_64.lib;D:\boost\lib64-msvc-141\libboost_atomic-vc141-mt-s-1_64.lib;iphlpapi.lib;Release\Serialization.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>W:/Projects/Bitsum/Core/build/src/Release/wallet-cli.lib</ImportLibrary>
+      <ProgramDataBaseFile>W:/Projects/Bitsum/Core/build/src/Release/wallet-cli.pdb</ProgramDataBaseFile>
+      <StackReserveSize>10485760</StackReserveSize>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\SimpleWallet\PasswordContainer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\SimpleWallet\SimpleWallet.h" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\SimpleWallet\PasswordContainer.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\SimpleWallet\SimpleWallet.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Common.vcxproj">
+      <Project>632F247F-BCD7-3A47-BF85-E04E43E92059</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Crypto.vcxproj">
+      <Project>40AC20DD-AAB6-3B63-AA1B-AEF6181E46F4</Project>
+      <Name>Crypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\CryptoNoteCore.vcxproj">
+      <Project>2715A2BA-E583-3043-BA47-F8542AA23E00</Project>
+      <Name>CryptoNoteCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Http.vcxproj">
+      <Project>D5BD334F-055A-3C71-B645-2BAEF586F87E</Project>
+      <Name>Http</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Logging.vcxproj">
+      <Project>2C12211B-4056-3B86-AB9F-4EBF9455CADF</Project>
+      <Name>Logging</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\NodeRpcProxy.vcxproj">
+      <Project>030EF4AD-1184-3389-8BB1-7D97AD0370A1</Project>
+      <Name>NodeRpcProxy</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\P2P.vcxproj">
+      <Project>7A77B983-B15A-3E98-84FC-28F7FAA3FBFD</Project>
+      <Name>P2P</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Rpc.vcxproj">
+      <Project>F7B86B76-7C68-3A27-9E79-964E8CC6ED60</Project>
+      <Name>Rpc</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Serialization.vcxproj">
+      <Project>26ED7678-FFCC-3AA5-9F7D-6ACD81E26DF6</Project>
+      <Name>Serialization</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\System.vcxproj">
+      <Project>FE3204C5-8786-39F1-8CC5-9BB8E97E99A9</Project>
+      <Name>System</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Transfers.vcxproj">
+      <Project>5C42ACE2-AE52-3E02-8055-D5537FFF3ACD</Project>
+      <Name>Transfers</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Wallet.vcxproj">
+      <Project>BF11AC5C-49E8-3BC0-A53A-FDF5EC9F1F07</Project>
+      <Name>Wallet</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\external\miniupnpc\upnpc-static.vcxproj">
+      <Project>21386FE0-A005-317E-ADB9-2E9CE4EF2D55</Project>
+      <Name>upnpc-static</Name>
+    </ProjectReference>
+    <ProjectReference Include="W:\Projects\Bitsum\Core\build\version.vcxproj">
+      <Project>5AF9A880-2DB3-3C7D-8605-FF6BE549EB81</Project>
+      <Name>version</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

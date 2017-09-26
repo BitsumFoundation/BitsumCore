@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\Base58.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\BlockingQueue.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\CommandLine.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\ConsoleHandler.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\ConsoleTools.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\FileMappedVector.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\IInputStream.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\IOutputStream.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\JsonValue.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\Math.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\MemoryInputStream.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\PathTools.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\ScopeExit.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\SignalHandler.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StdInputStream.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StdOutputStream.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StreamTools.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StringInputStream.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StringOutputStream.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StringTools.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StringView.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\Util.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\VectorOutputStream.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ArrayRef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ArrayView.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\Base58.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\BlockingQueue.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\CommandLine.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ConsoleHandler.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ConsoleTools.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\FileMappedVector.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\IInputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\IOutputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\JsonValue.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\Math.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\MemoryInputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ObserverManager.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\PathTools.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ScopeExit.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ShuffleGenerator.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\SignalHandler.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StdInputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StdOutputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StreamTools.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StringBuffer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StringInputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StringOutputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StringTools.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StringView.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\Util.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\Varint.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\VectorOutputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\int-util.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\pod-class.h" />
+    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\static_assert.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F843E555-AAE5-31DB-B3A7-04A9145CC0F2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

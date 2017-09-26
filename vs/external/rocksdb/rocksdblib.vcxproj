@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{205A9926-6C37-3FF5-BC1E-D3C9CDA6DEF7}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>rocksdblib</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\Core\build\external\rocksdb\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rocksdblib.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">rocksdblib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\Core\build\external\rocksdb\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">rocksdblib.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">rocksdblib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rocksdblib.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">rocksdblib</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /d2Zi+ /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4800;4996;4351;4244;4996;4345</DisableSpecificWarnings>
+      <ErrorReporting>Queue</ErrorReporting>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild>true</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(Configuration)/rocksdblib.pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;OS_WIN;_MBCS;WIN64;NOMINMAX;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;OS_WIN;_MBCS;WIN64;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /d2Zi+ /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4800;4996;4351;4244;4996;4345</DisableSpecificWarnings>
+      <ErrorReporting>Queue</ErrorReporting>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(Configuration)/rocksdblib.pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;OS_WIN;_MBCS;WIN64;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;OS_WIN;_MBCS;WIN64;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /d2Zi+ /Oxt /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <CallingConvention>Cdecl</CallingConvention>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4800;4996;4351;4244;4996;4345</DisableSpecificWarnings>
+      <ErrorReporting>Queue</ErrorReporting>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <ForceConformanceInForLoopScope>true</ForceConformanceInForLoopScope>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(Configuration)/rocksdblib.pdb</ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <StringPooling>true</StringPooling>
+      <StructMemberAlignment>8Bytes</StructMemberAlignment>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <TreatWarningAsError>true</TreatWarningAsError>
+      <UseFullPaths>true</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;OS_WIN;_MBCS;WIN64;NOMINMAX;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;OS_WIN;_MBCS;WIN64;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="W:\Projects\Bitsum\Core\build\CMakeFiles\7dbaefcfd53cf446e226f7a0d576a817\build_version.cc.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../../external/rocksdb/util/build_version.cc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+echo #include "build_version.h" &gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+echo const char* rocksdb_build_git_sha = "rocksdb_build_git_sha:0"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+echo const char* rocksdb_build_git_datetime = "rocksdb_build_git_datetime:09/19/17 14:18:51"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+echo const char* rocksdb_build_compile_date = __DATE__; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:/Projects/Bitsum/Core/build/CMakeFiles/7dbaefcfd53cf446e226f7a0d576a817/build_version.cc.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\Core\external\rocksdb\util\build_version.cc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../../external/rocksdb/util/build_version.cc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+echo #include "build_version.h" &gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+echo const char* rocksdb_build_git_sha = "rocksdb_build_git_sha:0"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+echo const char* rocksdb_build_git_datetime = "rocksdb_build_git_datetime:09/19/17 14:18:51"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+echo const char* rocksdb_build_compile_date = __DATE__; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:/Projects/Bitsum/Core/build/CMakeFiles/7dbaefcfd53cf446e226f7a0d576a817/build_version.cc.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\Core\external\rocksdb\util\build_version.cc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../external/rocksdb/util/build_version.cc</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+echo #include "build_version.h" &gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+echo const char* rocksdb_build_git_sha = "rocksdb_build_git_sha:0"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+echo const char* rocksdb_build_git_datetime = "rocksdb_build_git_datetime:09/19/17 14:18:51"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+echo const char* rocksdb_build_compile_date = __DATE__; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:/Projects/Bitsum/Core/build/CMakeFiles/7dbaefcfd53cf446e226f7a0d576a817/build_version.cc.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\Projects\Bitsum\Core\external\rocksdb\util\build_version.cc</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\auto_roll_logger.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\builder.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\c.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\column_family.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\compacted_db_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\compaction.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\compaction_iterator.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\compaction_job.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\compaction_picker.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\convenience.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\dbformat.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_filesnapshot.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_impl_debug.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_impl_experimental.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_impl_add_file.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_impl_readonly.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_info_dumper.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_iter.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\event_helpers.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\experimental.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\filename.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\file_indexer.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\flush_job.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\flush_scheduler.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\forward_iterator.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\internal_stats.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\log_reader.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\log_writer.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\managed_iterator.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\memtable.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\memtable_allocator.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\memtable_list.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\merge_helper.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\merge_operator.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\repair.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\snapshot_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\table_cache.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\table_properties_collector.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\transaction_log_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\version_builder.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\version_edit.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\version_set.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\wal_manager.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\write_batch.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\write_batch_base.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\write_controller.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\write_thread.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\xfunc_test_points.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\memtable\hash_cuckoo_rep.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\memtable\hash_linklist_rep.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\memtable\hash_skiplist_rep.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\memtable\skiplistrep.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\memtable\vectorrep.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\stack_trace.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\io_win.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\env_win.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\env_default.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\port_win.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\win_logger.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\xpress_win.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\adaptive_table_factory.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_based_filter_block.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_based_table_builder.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_based_table_factory.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_based_table_reader.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_builder.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_prefix_index.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\bloom_block.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\cuckoo_table_builder.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\cuckoo_table_factory.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\cuckoo_table_reader.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\flush_block_policy.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\format.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\full_filter_block.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\get_context.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\iterator.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\merger.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\sst_file_writer.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\meta_blocks.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\plain_table_builder.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\plain_table_factory.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\plain_table_index.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\plain_table_key_coding.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\plain_table_reader.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\persistent_cache_helper.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\table_properties.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\two_level_iterator.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\tools\sst_dump_tool.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\tools\db_bench_tool.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\tools\dump\db_dump_tool.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\arena.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\bloom.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\build_version.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\coding.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\compaction_job_stats_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\comparator.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\concurrent_arena.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\crc32c.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\delete_scheduler.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\dynamic_bloom.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\env.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\env_chroot.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\env_hdfs.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\event_logger.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\file_util.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\file_reader_writer.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\sst_file_manager_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\filter_policy.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\hash.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\histogram.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\histogram_windowing.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\instrumented_mutex.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\iostats_context.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\lru_cache.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\tools\ldb_cmd.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\tools\ldb_tool.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\logging.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\log_buffer.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\memenv.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\murmurhash.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\mutable_cf_options.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\options.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\options_helper.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\options_parser.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\options_sanity_check.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\perf_context.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\perf_level.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\random.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\rate_limiter.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\sharded_cache.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\slice.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\statistics.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\status.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\status_message.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\string_util.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\sync_point.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\testharness.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\testutil.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\thread_local.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\threadpool.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\thread_status_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\thread_status_updater.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\thread_status_util.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\thread_status_util_debug.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\transaction_test_util.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\xfunc.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\xxhash.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\backupable\backupable_db.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\checkpoint\checkpoint.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\compaction_filters\remove_emptyvalue_compactionfilter.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\document\document_db.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\document\json_document.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\document\json_document_builder.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\env_mirror.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\env_registry.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\flashcache\flashcache.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\geodb\geodb_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\leveldb_options\leveldb_options.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\memory\memory_util.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\merge_operators\string_append\stringappend.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\merge_operators\string_append\stringappend2.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\merge_operators\put.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\merge_operators\max.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\merge_operators\uint64add.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\option_change_migration\option_change_migration.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\options\options_util.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\persistent_cache\persistent_cache_tier.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\persistent_cache\volatile_tier_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\redis\redis_lists.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\simulator_cache\sim_cache.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\spatialdb\spatial_db.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\table_properties_collectors\compact_on_deletion_collector.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\optimistic_transaction_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\optimistic_transaction_db_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_base.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_db_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_db_mutex_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_lock_mgr.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_util.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\ttl\db_ttl_impl.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\write_batch_with_index\write_batch_with_index.cc" />
+    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\write_batch_with_index\write_batch_with_index_internal.cc" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
