@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\HTTP\HttpParser.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\HTTP\HttpParserErrorCodes.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\HTTP\HttpRequest.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\HTTP\HttpResponse.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\HTTP\HttpParser.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\HTTP\HttpParserErrorCodes.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\HTTP\HttpRequest.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\HTTP\HttpResponse.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\HTTP\HttpParser.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\HTTP\HttpParserErrorCodes.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\HTTP\HttpRequest.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\HTTP\HttpResponse.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\HTTP\HttpParser.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\HTTP\HttpParserErrorCodes.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\HTTP\HttpRequest.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\HTTP\HttpResponse.h" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

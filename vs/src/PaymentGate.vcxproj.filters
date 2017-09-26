@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\PaymentGate\NodeFactory.cpp">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\PaymentGate\NodeFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\PaymentGate\PaymentServiceJsonRpcMessages.cpp">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\PaymentGate\PaymentServiceJsonRpcMessages.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\PaymentGate\PaymentServiceJsonRpcServer.cpp">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\PaymentGate\PaymentServiceJsonRpcServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\PaymentGate\WalletService.cpp">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\PaymentGate\WalletService.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\PaymentGate\WalletServiceErrorCategory.cpp">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\PaymentGate\WalletServiceErrorCategory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\PaymentGate\NodeFactory.h">
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\PaymentGate\NodeFactory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\PaymentGate\PaymentServiceJsonRpcMessages.h">
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\PaymentGate\PaymentServiceJsonRpcMessages.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\PaymentGate\PaymentServiceJsonRpcServer.h">
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\PaymentGate\PaymentServiceJsonRpcServer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\PaymentGate\WalletService.h">
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\PaymentGate\WalletService.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\PaymentGate\WalletServiceErrorCategory.h">
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\PaymentGate\WalletServiceErrorCategory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{65A0D4E5-57F3-3E81-9C10-0D9EC4C477C0}</UniqueIdentifier>
+      <UniqueIdentifier>{6343A709-6454-3E79-8606-604BDB9C0130}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{F843E555-AAE5-31DB-B3A7-04A9145CC0F2}</UniqueIdentifier>
+      <UniqueIdentifier>{985C52AE-756A-32AF-95D5-9BCFDC9D6E47}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

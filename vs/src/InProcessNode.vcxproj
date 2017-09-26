@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -15,7 +15,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{5970750A-19F4-38FC-ACCD-5CF1ED404E61}</ProjectGUID>
+    <ProjectGUID>{B94E439F-3331-3B1D-892D-A04178061AE2}</ProjectGUID>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -48,25 +48,25 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup>
-    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\Core\build\src\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">InProcessNode.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">InProcessNode</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\Core\build\src\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">InProcessNode.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">InProcessNode</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\Projects\Bitsum\Core\vs\src\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">InProcessNode.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">InProcessNode</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-  </PropertyGroup>
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\BitsumCore\vs\src\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">InProcessNode.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">InProcessNode</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\BitsumCore\vs\src\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">InProcessNode.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">InProcessNode</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\Projects\Bitsum\BitsumCore\vs\src\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">InProcessNode.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">InProcessNode</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -86,10 +86,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -103,7 +103,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -122,10 +122,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -139,7 +139,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -154,15 +154,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat></DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,10 +173,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\InProcessNode\InProcessNode.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\InProcessNode\InProcessNodeErrors.h" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\InProcessNode\InProcessNode.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\InProcessNode\InProcessNodeErrors.cpp" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\InProcessNode\InProcessNode.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\InProcessNode\InProcessNodeErrors.h" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\InProcessNode\InProcessNode.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\InProcessNode\InProcessNodeErrors.cpp"  />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

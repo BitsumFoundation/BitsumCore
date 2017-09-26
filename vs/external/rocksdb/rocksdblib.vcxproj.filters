@@ -1,573 +1,573 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\auto_roll_logger.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\auto_roll_logger.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\builder.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\builder.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\c.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\c.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\column_family.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\column_family.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\compacted_db_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\compacted_db_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\compaction.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\compaction.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\compaction_iterator.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\compaction_iterator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\compaction_job.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\compaction_job.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\compaction_picker.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\compaction_picker.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\convenience.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\convenience.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\dbformat.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\dbformat.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_filesnapshot.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\db_filesnapshot.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\db_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_impl_debug.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\db_impl_debug.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_impl_experimental.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\db_impl_experimental.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_impl_add_file.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\db_impl_add_file.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_impl_readonly.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\db_impl_readonly.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_info_dumper.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\db_info_dumper.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\db_iter.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\db_iter.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\event_helpers.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\event_helpers.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\experimental.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\experimental.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\filename.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\filename.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\file_indexer.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\file_indexer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\flush_job.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\flush_job.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\flush_scheduler.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\flush_scheduler.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\forward_iterator.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\forward_iterator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\internal_stats.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\internal_stats.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\log_reader.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\log_reader.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\log_writer.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\log_writer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\managed_iterator.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\managed_iterator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\memtable.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\memtable.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\memtable_allocator.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\memtable_allocator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\memtable_list.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\memtable_list.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\merge_helper.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\merge_helper.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\merge_operator.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\merge_operator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\repair.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\repair.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\snapshot_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\snapshot_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\table_cache.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\table_cache.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\table_properties_collector.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\table_properties_collector.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\transaction_log_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\transaction_log_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\version_builder.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\version_builder.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\version_edit.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\version_edit.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\version_set.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\version_set.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\wal_manager.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\wal_manager.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\write_batch.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\write_batch.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\write_batch_base.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\write_batch_base.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\write_controller.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\write_controller.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\write_thread.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\write_thread.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\db\xfunc_test_points.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\db\xfunc_test_points.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\memtable\hash_cuckoo_rep.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\memtable\hash_cuckoo_rep.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\memtable\hash_linklist_rep.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\memtable\hash_linklist_rep.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\memtable\hash_skiplist_rep.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\memtable\hash_skiplist_rep.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\memtable\skiplistrep.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\memtable\skiplistrep.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\memtable\vectorrep.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\memtable\vectorrep.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\stack_trace.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\port\stack_trace.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\io_win.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\port\win\io_win.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\env_win.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\port\win\env_win.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\env_default.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\port\win\env_default.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\port_win.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\port\win\port_win.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\win_logger.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\port\win\win_logger.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\port\win\xpress_win.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\port\win\xpress_win.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\adaptive_table_factory.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\adaptive_table_factory.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\block.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_based_filter_block.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\block_based_filter_block.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_based_table_builder.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\block_based_table_builder.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_based_table_factory.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\block_based_table_factory.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_based_table_reader.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\block_based_table_reader.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_builder.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\block_builder.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\block_prefix_index.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\block_prefix_index.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\bloom_block.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\bloom_block.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\cuckoo_table_builder.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\cuckoo_table_builder.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\cuckoo_table_factory.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\cuckoo_table_factory.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\cuckoo_table_reader.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\cuckoo_table_reader.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\flush_block_policy.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\flush_block_policy.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\format.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\format.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\full_filter_block.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\full_filter_block.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\get_context.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\get_context.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\iterator.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\iterator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\merger.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\merger.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\sst_file_writer.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\sst_file_writer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\meta_blocks.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\meta_blocks.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\plain_table_builder.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\plain_table_builder.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\plain_table_factory.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\plain_table_factory.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\plain_table_index.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\plain_table_index.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\plain_table_key_coding.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\plain_table_key_coding.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\plain_table_reader.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\plain_table_reader.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\persistent_cache_helper.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\persistent_cache_helper.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\table_properties.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\table_properties.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\table\two_level_iterator.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\table\two_level_iterator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\tools\sst_dump_tool.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\tools\sst_dump_tool.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\tools\db_bench_tool.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\tools\db_bench_tool.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\tools\dump\db_dump_tool.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\tools\dump\db_dump_tool.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\arena.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\arena.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\bloom.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\bloom.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\build_version.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\build_version.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\coding.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\coding.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\compaction_job_stats_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\compaction_job_stats_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\comparator.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\comparator.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\concurrent_arena.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\concurrent_arena.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\crc32c.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\crc32c.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\delete_scheduler.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\delete_scheduler.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\dynamic_bloom.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\dynamic_bloom.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\env.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\env.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\env_chroot.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\env_chroot.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\env_hdfs.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\env_hdfs.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\event_logger.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\event_logger.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\file_util.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\file_util.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\file_reader_writer.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\file_reader_writer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\sst_file_manager_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\sst_file_manager_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\filter_policy.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\filter_policy.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\hash.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\hash.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\histogram.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\histogram.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\histogram_windowing.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\histogram_windowing.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\instrumented_mutex.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\instrumented_mutex.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\iostats_context.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\iostats_context.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\lru_cache.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\lru_cache.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\tools\ldb_cmd.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\tools\ldb_cmd.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\tools\ldb_tool.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\tools\ldb_tool.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\logging.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\logging.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\log_buffer.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\log_buffer.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\memenv.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\memenv.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\murmurhash.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\murmurhash.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\mutable_cf_options.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\mutable_cf_options.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\options.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\options.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\options_helper.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\options_helper.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\options_parser.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\options_parser.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\options_sanity_check.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\options_sanity_check.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\perf_context.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\perf_context.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\perf_level.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\perf_level.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\random.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\random.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\rate_limiter.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\rate_limiter.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\sharded_cache.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\sharded_cache.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\slice.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\slice.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\statistics.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\statistics.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\status.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\status.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\status_message.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\status_message.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\string_util.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\string_util.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\sync_point.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\sync_point.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\testharness.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\testharness.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\testutil.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\testutil.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\thread_local.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\thread_local.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\threadpool.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\threadpool.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\thread_status_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\thread_status_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\thread_status_updater.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\thread_status_updater.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\thread_status_util.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\thread_status_util.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\thread_status_util_debug.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\thread_status_util_debug.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\transaction_test_util.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\transaction_test_util.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\xfunc.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\xfunc.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\util\xxhash.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\xxhash.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\backupable\backupable_db.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\backupable\backupable_db.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\checkpoint\checkpoint.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\checkpoint\checkpoint.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\compaction_filters\remove_emptyvalue_compactionfilter.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\compaction_filters\remove_emptyvalue_compactionfilter.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\document\document_db.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\document\document_db.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\document\json_document.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\document\json_document.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\document\json_document_builder.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\document\json_document_builder.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\env_mirror.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\env_mirror.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\env_registry.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\env_registry.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\flashcache\flashcache.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\flashcache\flashcache.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\geodb\geodb_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\geodb\geodb_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\leveldb_options\leveldb_options.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\leveldb_options\leveldb_options.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\memory\memory_util.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\memory\memory_util.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\merge_operators\string_append\stringappend.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\merge_operators\string_append\stringappend.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\merge_operators\string_append\stringappend2.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\merge_operators\string_append\stringappend2.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\merge_operators\put.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\merge_operators\put.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\merge_operators\max.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\merge_operators\max.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\merge_operators\uint64add.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\merge_operators\uint64add.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\option_change_migration\option_change_migration.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\option_change_migration\option_change_migration.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\options\options_util.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\options\options_util.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\persistent_cache\persistent_cache_tier.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\persistent_cache\persistent_cache_tier.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\persistent_cache\volatile_tier_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\persistent_cache\volatile_tier_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\redis\redis_lists.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\redis\redis_lists.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\simulator_cache\sim_cache.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\simulator_cache\sim_cache.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\spatialdb\spatial_db.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\spatialdb\spatial_db.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\table_properties_collectors\compact_on_deletion_collector.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\table_properties_collectors\compact_on_deletion_collector.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\optimistic_transaction_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\transactions\optimistic_transaction_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\optimistic_transaction_db_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\transactions\optimistic_transaction_db_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_base.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\transactions\transaction_base.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\transactions\transaction_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_db_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\transactions\transaction_db_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_db_mutex_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\transactions\transaction_db_mutex_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_lock_mgr.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\transactions\transaction_lock_mgr.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\transactions\transaction_util.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\transactions\transaction_util.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\ttl\db_ttl_impl.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\ttl\db_ttl_impl.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\write_batch_with_index\write_batch_with_index.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\write_batch_with_index\write_batch_with_index.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\external\rocksdb\utilities\write_batch_with_index\write_batch_with_index_internal.cc">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\external\rocksdb\utilities\write_batch_with_index\write_batch_with_index_internal.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="W:\Projects\Bitsum\Core\build\CMakeFiles\7dbaefcfd53cf446e226f7a0d576a817\build_version.cc.rule">
+    <CustomBuild Include="W:\Projects\Bitsum\BitsumCore\vs\CMakeFiles\b7f0ca2fefbab4efdafb6ef27e26340f\build_version.cc.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{65A0D4E5-57F3-3E81-9C10-0D9EC4C477C0}</UniqueIdentifier>
+      <UniqueIdentifier>{6343A709-6454-3E79-8606-604BDB9C0130}</UniqueIdentifier>
     </Filter>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{531A2CA8-321A-3D08-A73E-81E12FD10F4C}</UniqueIdentifier>
+      <UniqueIdentifier>{4602E0D8-9B27-36BB-8BA1-85D8CDD28CED}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

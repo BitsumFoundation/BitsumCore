@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -15,7 +15,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{2715A2BA-E583-3043-BA47-F8542AA23E00}</ProjectGUID>
+    <ProjectGUID>{862625A2-8978-37FB-A206-7AAB93A6AAEF}</ProjectGUID>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -48,25 +48,25 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup>
-    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\Core\build\src\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CryptoNoteCore.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CryptoNoteCore</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\Core\build\src\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CryptoNoteCore.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CryptoNoteCore</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\Projects\Bitsum\Core\vs\src\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CryptoNoteCore.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CryptoNoteCore</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-  </PropertyGroup>
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\BitsumCore\vs\src\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CryptoNoteCore.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CryptoNoteCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\BitsumCore\vs\src\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CryptoNoteCore.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CryptoNoteCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\Projects\Bitsum\BitsumCore\vs\src\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CryptoNoteCore.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CryptoNoteCore</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -86,10 +86,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -103,7 +103,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -122,10 +122,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -139,7 +139,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -154,15 +154,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat></DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,142 +173,142 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Account.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\AddBlockErrorCondition.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\AddBlockErrors.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockValidationErrors.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainCache.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainMessages.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainReadBatch.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainStorage.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainUtils.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainWriteBatch.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CachedBlock.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CachedTransaction.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Checkpoints.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Core.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CoreErrors.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CoreStatistics.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CryptoNoteBasic.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CryptoNoteBasicImpl.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CryptoNoteFormatUtils.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CryptoNoteSerialization.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CryptoNoteTools.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Currency.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DBUtils.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DataBaseConfig.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DataBaseErrors.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DatabaseBlockchainCache.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DatabaseBlockchainCacheFactory.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DatabaseCacheData.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Difficulty.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\IBlockchainCache.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\IBlockchainCacheFactory.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\IBlockchainStorageObserver.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\ICore.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\ICoreDefinitions.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\ICoreInformation.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\ICoreObserver.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\IKeyValueStorage.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\IMainChainStorage.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\IMinerHandler.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\ITimeProvider.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\ITransactionPool.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\ITransactionPoolCleaner.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\ITransactionValidator.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\ITxPoolObserver.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\IUpgradeDetector.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\IUpgradeManager.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\IntrusiveLinkedList.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\MainChainStorage.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\MemoryBlockchainCacheFactory.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\MemoryBlockchainStorage.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\MessageQueue.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Miner.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\MinerConfig.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\OnceInInterval.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\RocksDBWrapper.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\SwappedBlockchainStorage.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\SwappedMap.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\SwappedVector.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionApi.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionApiExtra.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionExtra.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionPool.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionPoolCleaner.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionPoolMessages.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionUtils.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionValidationErrors.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionValidatiorState.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\UpgradeDetector.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\UpgradeManager.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\VerificationContext.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\CryptoNoteConfig.h" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Account.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\AddBlockErrorCondition.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\AddBlockErrors.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockValidationErrors.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainCache.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainMessages.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainReadBatch.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainStorage.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainUtils.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\BlockchainWriteBatch.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CachedBlock.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CachedTransaction.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Checkpoints.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Core.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CoreErrors.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CryptoNoteBasic.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CryptoNoteBasicImpl.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CryptoNoteFormatUtils.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CryptoNoteSerialization.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\CryptoNoteTools.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Currency.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DBUtils.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DataBaseConfig.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DataBaseErrors.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DatabaseBlockchainCache.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DatabaseBlockchainCacheFactory.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\DatabaseCacheData.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Difficulty.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\ITimeProvider.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\MainChainStorage.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\MemoryBlockchainCacheFactory.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\MemoryBlockchainStorage.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Miner.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\MinerConfig.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\RocksDBWrapper.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\SwappedBlockchainStorage.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\SwappedMap.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\SwappedVector.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\Transaction.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionExtra.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionPool.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionPoolCleaner.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionPoolMessages.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionPrefixImpl.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionUtils.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionValidationErrors.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\TransactionValidatiorState.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\UpgradeDetector.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\CryptoNoteCore\UpgradeManager.cpp" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Account.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\AddBlockErrorCondition.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\AddBlockErrors.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockValidationErrors.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainCache.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainMessages.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainReadBatch.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainStorage.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainUtils.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainWriteBatch.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CachedBlock.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CachedTransaction.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Checkpoints.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Core.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CoreErrors.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CoreStatistics.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CryptoNoteBasic.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CryptoNoteBasicImpl.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CryptoNoteFormatUtils.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CryptoNoteSerialization.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CryptoNoteTools.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Currency.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DBUtils.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DataBaseConfig.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DataBaseErrors.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DatabaseBlockchainCache.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DatabaseBlockchainCacheFactory.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DatabaseCacheData.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Difficulty.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\IBlockchainCache.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\IBlockchainCacheFactory.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\IBlockchainStorageObserver.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\ICore.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\ICoreDefinitions.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\ICoreInformation.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\ICoreObserver.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\IKeyValueStorage.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\IMainChainStorage.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\IMinerHandler.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\ITimeProvider.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\ITransactionPool.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\ITransactionPoolCleaner.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\ITransactionValidator.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\ITxPoolObserver.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\IUpgradeDetector.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\IUpgradeManager.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\IntrusiveLinkedList.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\MainChainStorage.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\MemoryBlockchainCacheFactory.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\MemoryBlockchainStorage.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\MessageQueue.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Miner.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\MinerConfig.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\OnceInInterval.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\RocksDBWrapper.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\SwappedBlockchainStorage.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\SwappedMap.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\SwappedVector.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionApi.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionApiExtra.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionExtra.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionPool.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionPoolCleaner.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionPoolMessages.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionUtils.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionValidationErrors.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionValidatiorState.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\UpgradeDetector.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\UpgradeManager.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\VerificationContext.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteConfig.h" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Account.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\AddBlockErrorCondition.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\AddBlockErrors.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockValidationErrors.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainCache.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainMessages.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainReadBatch.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainStorage.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainUtils.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\BlockchainWriteBatch.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CachedBlock.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CachedTransaction.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Checkpoints.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Core.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CoreErrors.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CryptoNoteBasic.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CryptoNoteBasicImpl.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CryptoNoteFormatUtils.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CryptoNoteSerialization.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\CryptoNoteTools.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Currency.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DBUtils.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DataBaseConfig.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DataBaseErrors.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DatabaseBlockchainCache.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DatabaseBlockchainCacheFactory.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\DatabaseCacheData.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Difficulty.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\ITimeProvider.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\MainChainStorage.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\MemoryBlockchainCacheFactory.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\MemoryBlockchainStorage.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Miner.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\MinerConfig.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\RocksDBWrapper.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\SwappedBlockchainStorage.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\SwappedMap.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\SwappedVector.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\Transaction.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionExtra.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionPool.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionPoolCleaner.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionPoolMessages.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionPrefixImpl.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionUtils.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionValidationErrors.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\TransactionValidatiorState.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\UpgradeDetector.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\CryptoNoteCore\UpgradeManager.cpp"  />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Common.vcxproj">
-      <Project>632F247F-BCD7-3A47-BF85-E04E43E92059</Project>
+    <ProjectReference Include="W:\Projects\Bitsum\BitsumCore\vs\src\Common.vcxproj">
+      <Project>CBCE3807-0C35-3B0E-9DCC-7AA1017C56E5</Project>
       <Name>Common</Name>
     </ProjectReference>
-    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Crypto.vcxproj">
-      <Project>40AC20DD-AAB6-3B63-AA1B-AEF6181E46F4</Project>
+    <ProjectReference Include="W:\Projects\Bitsum\BitsumCore\vs\src\Crypto.vcxproj">
+      <Project>4A2B1887-E3F2-32D3-81C0-979C41B76BB4</Project>
       <Name>Crypto</Name>
     </ProjectReference>
-    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Logging.vcxproj">
-      <Project>2C12211B-4056-3B86-AB9F-4EBF9455CADF</Project>
+    <ProjectReference Include="W:\Projects\Bitsum\BitsumCore\vs\src\Logging.vcxproj">
+      <Project>EDEF1F2F-CF85-3ED1-A2C2-22BF595C15EA</Project>
       <Name>Logging</Name>
     </ProjectReference>
-    <ProjectReference Include="W:\Projects\Bitsum\Core\build\src\Serialization.vcxproj">
-      <Project>26ED7678-FFCC-3AA5-9F7D-6ACD81E26DF6</Project>
+    <ProjectReference Include="W:\Projects\Bitsum\BitsumCore\vs\src\Serialization.vcxproj">
+      <Project>7082CE42-87D2-386A-B304-909C0EDE11A1</Project>
       <Name>Serialization</Name>
     </ProjectReference>
   </ItemGroup>

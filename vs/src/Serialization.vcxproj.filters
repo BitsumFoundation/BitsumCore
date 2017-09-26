@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Serialization\BinaryInputStreamSerializer.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Serialization\BinaryOutputStreamSerializer.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Serialization\BlockchainExplorerDataSerialization.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Serialization\JsonInputStreamSerializer.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Serialization\JsonInputValueSerializer.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Serialization\JsonOutputStreamSerializer.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Serialization\KVBinaryInputStreamSerializer.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Serialization\KVBinaryOutputStreamSerializer.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Serialization\MemoryStream.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Serialization\SerializationOverloads.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\BinaryInputStreamSerializer.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\BinaryOutputStreamSerializer.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\BlockchainExplorerDataSerialization.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\JsonInputStreamSerializer.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\JsonInputValueSerializer.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\JsonOutputStreamSerializer.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\KVBinaryInputStreamSerializer.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\KVBinaryOutputStreamSerializer.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\MemoryStream.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\SerializationOverloads.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\BinaryInputStreamSerializer.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\BinaryOutputStreamSerializer.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\BinarySerializationTools.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\BlockchainExplorerDataSerialization.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\ISerializer.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\IStream.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\JsonInputStreamSerializer.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\JsonInputValueSerializer.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\JsonOutputStreamSerializer.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\KVBinaryCommon.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\KVBinaryInputStreamSerializer.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\KVBinaryOutputStreamSerializer.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\MemoryStream.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\SerializationOverloads.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Serialization\SerializationTools.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\BinaryInputStreamSerializer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\BinaryOutputStreamSerializer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\BinarySerializationTools.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\BlockchainExplorerDataSerialization.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\ISerializer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\IStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\JsonInputStreamSerializer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\JsonInputValueSerializer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\JsonOutputStreamSerializer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\KVBinaryCommon.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\KVBinaryInputStreamSerializer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\KVBinaryOutputStreamSerializer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\MemoryStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\SerializationOverloads.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Serialization\SerializationTools.h" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

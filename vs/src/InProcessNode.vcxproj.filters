@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\InProcessNode\InProcessNode.cpp">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\InProcessNode\InProcessNode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\InProcessNode\InProcessNodeErrors.cpp">
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\InProcessNode\InProcessNodeErrors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\InProcessNode\InProcessNode.h">
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\InProcessNode\InProcessNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\InProcessNode\InProcessNodeErrors.h">
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\InProcessNode\InProcessNodeErrors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{65A0D4E5-57F3-3E81-9C10-0D9EC4C477C0}</UniqueIdentifier>
+      <UniqueIdentifier>{6343A709-6454-3E79-8606-604BDB9C0130}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{F843E555-AAE5-31DB-B3A7-04A9145CC0F2}</UniqueIdentifier>
+      <UniqueIdentifier>{985C52AE-756A-32AF-95D5-9BCFDC9D6E47}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -15,7 +15,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{D4BD48D8-0F67-3DA9-B5E4-6CF383DE8E63}</ProjectGUID>
+    <ProjectGUID>{4A62573A-71DD-3EDD-AD81-0BA11D470C0D}</ProjectGUID>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -56,7 +56,7 @@
     </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\gtest\include;W:\Projects\Bitsum\BitsumCore\external\gtest;W:\Projects\Bitsum\BitsumCore\external\..\version;W:\Projects\Bitsum\BitsumCore\external\rocksdb;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -66,7 +66,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\gtest\include;W:\Projects\Bitsum\BitsumCore\external\gtest;W:\Projects\Bitsum\BitsumCore\external\..\version;W:\Projects\Bitsum\BitsumCore\external\rocksdb;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -76,7 +76,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\gtest\include;W:\Projects\Bitsum\Core\external\gtest;W:\Projects\Bitsum\Core\external\..\version;W:\Projects\Bitsum\Core\external\rocksdb;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\gtest\include;W:\Projects\Bitsum\BitsumCore\external\gtest;W:\Projects\Bitsum\BitsumCore\external\..\version;W:\Projects\Bitsum\BitsumCore\external\rocksdb;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -85,16 +85,16 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="W:\Projects\Bitsum\Core\build\CMakeFiles\7dbaefcfd53cf446e226f7a0d576a817\build_version.cc.rule">
+    <CustomBuild Include="W:\Projects\Bitsum\BitsumCore\vs\CMakeFiles\b7f0ca2fefbab4efdafb6ef27e26340f\build_version.cc.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating ../../../external/rocksdb/util/build_version.cc</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-echo #include "build_version.h" &gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo #include "build_version.h" &gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
-echo const char* rocksdb_build_git_sha = "rocksdb_build_git_sha:0"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo const char* rocksdb_build_git_sha = "rocksdb_build_git_sha:0"; &gt;&gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
-echo const char* rocksdb_build_git_datetime = "rocksdb_build_git_datetime:09/19/17 14:18:51"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo const char* rocksdb_build_git_datetime = "rocksdb_build_git_datetime:09/26/17 11:29:30"; &gt;&gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
-echo const char* rocksdb_build_compile_date = __DATE__; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo const char* rocksdb_build_compile_date = __DATE__; &gt;&gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -102,18 +102,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:/Projects/Bitsum/Core/build/CMakeFiles/7dbaefcfd53cf446e226f7a0d576a817/build_version.cc.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\Core\external\rocksdb\util\build_version.cc</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:/Projects/Bitsum/BitsumCore/vs/CMakeFiles/b7f0ca2fefbab4efdafb6ef27e26340f/build_version.cc.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\build_version.cc</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating ../../../external/rocksdb/util/build_version.cc</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-echo #include "build_version.h" &gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo #include "build_version.h" &gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
-echo const char* rocksdb_build_git_sha = "rocksdb_build_git_sha:0"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo const char* rocksdb_build_git_sha = "rocksdb_build_git_sha:0"; &gt;&gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
-echo const char* rocksdb_build_git_datetime = "rocksdb_build_git_datetime:09/19/17 14:18:51"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo const char* rocksdb_build_git_datetime = "rocksdb_build_git_datetime:09/26/17 11:29:30"; &gt;&gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
-echo const char* rocksdb_build_compile_date = __DATE__; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo const char* rocksdb_build_compile_date = __DATE__; &gt;&gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,18 +121,18 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:/Projects/Bitsum/Core/build/CMakeFiles/7dbaefcfd53cf446e226f7a0d576a817/build_version.cc.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\Core\external\rocksdb\util\build_version.cc</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:/Projects/Bitsum/BitsumCore/vs/CMakeFiles/b7f0ca2fefbab4efdafb6ef27e26340f/build_version.cc.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\build_version.cc</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating ../../../external/rocksdb/util/build_version.cc</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-echo #include "build_version.h" &gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo #include "build_version.h" &gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
-echo const char* rocksdb_build_git_sha = "rocksdb_build_git_sha:0"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo const char* rocksdb_build_git_sha = "rocksdb_build_git_sha:0"; &gt;&gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
-echo const char* rocksdb_build_git_datetime = "rocksdb_build_git_datetime:09/19/17 14:18:51"; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo const char* rocksdb_build_git_datetime = "rocksdb_build_git_datetime:09/26/17 11:29:30"; &gt;&gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
-echo const char* rocksdb_build_compile_date = __DATE__; &gt;&gt; W:/Projects/Bitsum/Core/external/rocksdb/util/build_version.cc
+echo const char* rocksdb_build_compile_date = __DATE__; &gt;&gt; W:/Projects/Bitsum/BitsumCore/external/rocksdb/util/build_version.cc
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -140,13 +140,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:/Projects/Bitsum/Core/build/CMakeFiles/7dbaefcfd53cf446e226f7a0d576a817/build_version.cc.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\Projects\Bitsum\Core\external\rocksdb\util\build_version.cc</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:/Projects/Bitsum/BitsumCore/vs/CMakeFiles/b7f0ca2fefbab4efdafb6ef27e26340f/build_version.cc.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\build_version.cc</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="W:\Projects\Bitsum\Core\build\CMakeFiles\8d89d54a899fb1aac6c3e7330dd2ec4e\GenerateBuildVersion.rule">
+    <CustomBuild Include="W:\Projects\Bitsum\BitsumCore\vs\CMakeFiles\060324eb428900d9e845b240c1a1593d\GenerateBuildVersion.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 :cmEnd
@@ -155,8 +155,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:/Projects/Bitsum/Core/build/CMakeFiles/8d89d54a899fb1aac6c3e7330dd2ec4e/GenerateBuildVersion.rule;W:\Projects\Bitsum\Core\external\rocksdb\util\build_version.cc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\Core\build\external\rocksdb\CMakeFiles\GenerateBuildVersion</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:/Projects/Bitsum/BitsumCore/vs/CMakeFiles/060324eb428900d9e845b240c1a1593d/GenerateBuildVersion.rule;W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\build_version.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\BitsumCore\vs\external\rocksdb\CMakeFiles\GenerateBuildVersion</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
@@ -166,8 +166,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:/Projects/Bitsum/Core/build/CMakeFiles/8d89d54a899fb1aac6c3e7330dd2ec4e/GenerateBuildVersion.rule;W:\Projects\Bitsum\Core\external\rocksdb\util\build_version.cc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\Core\build\external\rocksdb\CMakeFiles\GenerateBuildVersion</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:/Projects/Bitsum/BitsumCore/vs/CMakeFiles/060324eb428900d9e845b240c1a1593d/GenerateBuildVersion.rule;W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\build_version.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\BitsumCore\vs\external\rocksdb\CMakeFiles\GenerateBuildVersion</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
@@ -177,13 +177,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:/Projects/Bitsum/Core/build/CMakeFiles/8d89d54a899fb1aac6c3e7330dd2ec4e/GenerateBuildVersion.rule;W:\Projects\Bitsum\Core\external\rocksdb\util\build_version.cc;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\Projects\Bitsum\Core\build\external\rocksdb\CMakeFiles\GenerateBuildVersion</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:/Projects/Bitsum/BitsumCore/vs/CMakeFiles/060324eb428900d9e845b240c1a1593d/GenerateBuildVersion.rule;W:\Projects\Bitsum\BitsumCore\external\rocksdb\util\build_version.cc;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\Projects\Bitsum\BitsumCore\vs\external\rocksdb\CMakeFiles\GenerateBuildVersion</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="W:\Projects\Bitsum\Core\build\external\rocksdb\CMakeFiles\GenerateBuildVersion" />
+    <None Include="W:\Projects\Bitsum\BitsumCore\vs\external\rocksdb\CMakeFiles\GenerateBuildVersion" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\SimpleWallet\PasswordContainer.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\SimpleWallet\SimpleWallet.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\SimpleWallet\PasswordContainer.cpp" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\SimpleWallet\SimpleWallet.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\SimpleWallet\PasswordContainer.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\SimpleWallet\SimpleWallet.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\SimpleWallet\PasswordContainer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\SimpleWallet\SimpleWallet.h" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>

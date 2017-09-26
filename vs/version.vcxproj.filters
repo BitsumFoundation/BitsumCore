@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="W:\Projects\Bitsum\Core\build\CMakeFiles\88dd819c5c47a94aa1ed2985a1a2299e\version.rule">
+    <CustomBuild Include="W:\Projects\Bitsum\BitsumCore\vs\CMakeFiles\be81fb6d3ffa92e8fa17626e6940e3f8\version.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="W:\Projects\Bitsum\Core\build\CMakeFiles\version" />
+    <None Include="W:\Projects\Bitsum\BitsumCore\vs\CMakeFiles\version" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{531A2CA8-321A-3D08-A73E-81E12FD10F4C}</UniqueIdentifier>
+      <UniqueIdentifier>{4602E0D8-9B27-36BB-8BA1-85D8CDD28CED}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

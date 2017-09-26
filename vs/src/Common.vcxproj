@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -15,7 +15,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{632F247F-BCD7-3A47-BF85-E04E43E92059}</ProjectGUID>
+    <ProjectGUID>{CBCE3807-0C35-3B0E-9DCC-7AA1017C56E5}</ProjectGUID>
     <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -48,25 +48,25 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup>
-    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\Core\build\src\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\Core\build\src\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Common.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Common</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\Projects\Bitsum\Core\vs\src\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-  </PropertyGroup>
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">W:\Projects\Bitsum\BitsumCore\vs\src\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Common</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">W:\Projects\Bitsum\BitsumCore\vs\src\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Common.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Common</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">W:\Projects\Bitsum\BitsumCore\vs\src\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Common</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>false</BufferSecurityCheck>
@@ -86,10 +86,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -103,7 +103,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
       <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -122,10 +122,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -139,7 +139,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <BufferSecurityCheck>false</BufferSecurityCheck>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -154,15 +154,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <DebugInformationFormat>
-      </DebugInformationFormat>
+      <DebugInformationFormat></DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;GTEST_HAS_TR1_TUPLE=0;_VARIADIC_MAX=8;__SSE4_1__;STATICLIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>W:\Projects\Bitsum\Core\include;W:\Projects\Bitsum\Core\src;W:\Projects\Bitsum\Core\external;W:\Projects\Bitsum\Core\build\version;W:\Projects\Bitsum\Core\src\Platform\Windows;W:\Projects\Bitsum\Core\src\platform\msc;D:\boost;W:\Projects\Bitsum\Core\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>W:\Projects\Bitsum\BitsumCore\include;W:\Projects\Bitsum\BitsumCore\src;W:\Projects\Bitsum\BitsumCore\external;W:\Projects\Bitsum\BitsumCore\vs\version;W:\Projects\Bitsum\BitsumCore\src\Platform\Windows;W:\Projects\Bitsum\BitsumCore\src\platform\msc;D:\boost;W:\Projects\Bitsum\BitsumCore\external\rocksdb\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -174,61 +173,61 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ArrayRef.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ArrayView.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\Base58.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\BlockingQueue.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\CommandLine.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ConsoleHandler.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ConsoleTools.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\FileMappedVector.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\IInputStream.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\IOutputStream.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\JsonValue.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\Math.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\MemoryInputStream.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ObserverManager.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\PathTools.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ScopeExit.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\ShuffleGenerator.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\SignalHandler.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StdInputStream.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StdOutputStream.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StreamTools.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StringBuffer.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StringInputStream.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StringOutputStream.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StringTools.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\StringView.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\Util.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\Varint.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\VectorOutputStream.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\int-util.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\pod-class.h" />
-    <ClInclude Include="W:\Projects\Bitsum\Core\src\Common\static_assert.h" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\Base58.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\BlockingQueue.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\CommandLine.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\ConsoleHandler.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\ConsoleTools.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\FileMappedVector.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\IInputStream.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\IOutputStream.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\JsonValue.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\Math.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\MemoryInputStream.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\PathTools.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\ScopeExit.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\SignalHandler.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StdInputStream.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StdOutputStream.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StreamTools.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StringInputStream.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StringOutputStream.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StringTools.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\StringView.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\Util.cpp" />
-    <ClCompile Include="W:\Projects\Bitsum\Core\src\Common\VectorOutputStream.cpp" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\ArrayRef.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\ArrayView.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\Base58.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\BlockingQueue.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\CommandLine.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\ConsoleHandler.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\ConsoleTools.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\FileMappedVector.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\IInputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\IOutputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\JsonValue.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\Math.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\MemoryInputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\ObserverManager.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\PathTools.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\ScopeExit.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\ShuffleGenerator.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\SignalHandler.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\StdInputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\StdOutputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\StreamTools.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\StringBuffer.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\StringInputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\StringOutputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\StringTools.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\StringView.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\Util.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\Varint.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\VectorOutputStream.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\int-util.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\pod-class.h" />
+    <ClInclude Include="W:\Projects\Bitsum\BitsumCore\src\Common\static_assert.h" />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\Base58.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\BlockingQueue.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\CommandLine.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\ConsoleHandler.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\ConsoleTools.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\FileMappedVector.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\IInputStream.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\IOutputStream.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\JsonValue.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\Math.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\MemoryInputStream.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\PathTools.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\ScopeExit.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\SignalHandler.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\StdInputStream.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\StdOutputStream.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\StreamTools.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\StringInputStream.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\StringOutputStream.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\StringTools.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\StringView.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\Util.cpp"  />
+    <ClCompile Include="W:\Projects\Bitsum\BitsumCore\src\Common\VectorOutputStream.cpp"  />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
