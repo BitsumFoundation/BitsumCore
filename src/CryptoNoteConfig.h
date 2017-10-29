@@ -133,8 +133,8 @@ struct CheckpointData {
   const char* blockId;
 };
 
-const CheckpointData CHECKPOINTS[] = {
-	{5000,  "bc6c868f6e5455d16a49f93d909de2533937b77e2b1faaac8f895b0799268230"},
+const CheckpointData CHECKPOINTS[] = { 
+{10000,  "d7d88ac1a3e568d10beff67b078507669a70ecd138386b29a26fc448278f1aff"},
 };
 } // CryptoNote
 
