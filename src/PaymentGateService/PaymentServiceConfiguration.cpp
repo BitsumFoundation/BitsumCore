@@ -33,7 +33,7 @@ Configuration::Configuration() {
   registerService = false;
   unregisterService = false;
   containerPassword = "";
-  logFile = "walletd.log";
+  logFile = "wallet-rpc.log";
   testnet = false;
   printAddresses = false;
   logLevel = Logging::INFO;

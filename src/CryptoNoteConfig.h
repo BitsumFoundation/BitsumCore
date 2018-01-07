@@ -123,6 +123,7 @@ const char* const SEED_NODES[] = {
    "seed1.bitsum.uz:18080",
    "seed2.bitsum.uz:18080",
    "seed3.bitsum.uz:18080",
+   "seed4.bitsum.uz:18080",
    "seed1.bitsum.ml:18080",
    "seed2.bitsum.ml:18080",
    "seed3.bitsum.ml:18080",
@@ -136,6 +137,10 @@ struct CheckpointData {
 const CheckpointData CHECKPOINTS[] = { 
 	{ 10000,  "d7d88ac1a3e568d10beff67b078507669a70ecd138386b29a26fc448278f1aff" },
 	{ 20000,  "f76f1bc9b26e5045d2d83991dba825389e4d4771811d0859d885460b1c4f716a" },
+	{ 30000,  "ad5c51e27f13b7aea4d0645b92068715500882fc9bde35dee5c8b67a6768f708" },
+	{ 40000,  "c873c1ee72faa411c12948de0fcc9a0864c9b9add115d876a112a342c486045d" },
+	{ 50000,  "d9c05150235412bc041fe715baa105cc2aa717333f04253a4b379aaf509ae383" },
+	{ 60000,  "a8146d363a13f175e589be53fbe859c9b590776fc269d94707ebab2beb88a3e1" },
 };
 } // CryptoNote
 
