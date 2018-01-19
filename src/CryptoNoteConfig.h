@@ -120,12 +120,13 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[] = "7faf1b1a49aea1f5bc50f5df7b9087b622dc9b6e5080bae33828f71a4c7b807d";
 
 const char* const SEED_NODES[] = {
-   "80.208.225.17:18080",
-   "80.209.227.121:18080",
-   //"seed1.bitsum.uz:18080",
-   //"seed2.bitsum.uz:18080",
-   //"seed3.bitsum.uz:18080",
-   //"seed4.bitsum.uz:18080",
+   //"80.208.225.17:18080",
+   //"80.209.227.121:18080",
+   "seed1.bitsum.uz:18080",
+   "seed2.bitsum.uz:18080",
+   "seed3.bitsum.uz:18080",
+   "seed4.bitsum.uz:18080",
+   "seed5.bitsum.uz:18080",
    //"seed1.bitsum.ml:18080",
    //"seed2.bitsum.ml:18080",
    //"seed3.bitsum.ml:18080",
