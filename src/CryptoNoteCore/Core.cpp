@@ -37,6 +37,8 @@
 #include "CryptoNoteCore/TransactionPoolCleaner.h"
 #include "CryptoNoteCore/UpgradeManager.h"
 #include "CryptoNoteProtocol/CryptoNoteProtocolHandlerCommon.h"
+#include <iostream>
+#include <cstring>
 
 #include <System/Timer.h>
 
@@ -900,6 +902,24 @@ bool Core::addTransactionToPool(const BinaryArray& transactionBinaryArray) {
   CachedTransaction cachedTransaction(std::move(transaction));
   auto transactionHash = cachedTransaction.getTransactionHash();
 
+  //std::string s;
+  //s.reserve(32);
+  //std::ostringstream convert;
+
+  //for (size_t i = 0; i < 32; i++)
+  //{
+	 // int j = (int)transactionHash.data[i];
+	 // if (j < 16)
+	 // {
+		//  convert << "0";
+	 // }
+
+	 // convert << std::hex << j;
+  //}
+  //s = convert.str();
+
+  //if (s == "f2a6dbb8150694766b943793cedbe81ef758523601623c8eadceed8724536636") return false;
+  
   if (!addTransactionToPool(std::move(cachedTransaction))) {
     return false;
   }
