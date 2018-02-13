@@ -39,7 +39,7 @@ const unsigned EMISSION_SPEED_FACTOR                         = 18;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
-const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 100000; //size of block (bytes) after which reward for block calculated using block size
+const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE     = 10000; //size of block (bytes) after which reward for block calculated using block size
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V2  = 20000;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_V1  = 10000;
 const size_t   CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE_CURRENT = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE;
@@ -55,7 +55,7 @@ const size_t   DIFFICULTY_CUT                                = 60;  // timestamp
 const size_t   DIFFICULTY_LAG                                = 15;  // !!!
 static_assert(2 * DIFFICULTY_CUT <= DIFFICULTY_WINDOW - 2, "Bad DIFFICULTY_WINDOW or DIFFICULTY_CUT");
 
-const size_t   MAX_BLOCK_SIZE_INITIAL						 = 100000; // 20 * 1024;
+const size_t   MAX_BLOCK_SIZE_INITIAL						 = 20 * 1024;
 const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_NUMERATOR         = 100 * 1024;
 const uint64_t MAX_BLOCK_SIZE_GROWTH_SPEED_DENOMINATOR       = 365 * 24 * 60 * 60 / DIFFICULTY_TARGET;
 
@@ -145,7 +145,8 @@ const CheckpointData CHECKPOINTS[] = {
 	{ 50000,  "d9c05150235412bc041fe715baa105cc2aa717333f04253a4b379aaf509ae383" },
 	{ 60000,  "a8146d363a13f175e589be53fbe859c9b590776fc269d94707ebab2beb88a3e1" },
 	{ 70000,  "bd80a2f394caef769547ab3f838ab7bcdb4a04fe6ab003c794d2051ecf13b144" },
-	
+	{ 80000,  "ce5ed3d782c172ef872303e01c59b99869dc1d4a9e9ac00c9d2230f26fd1df51" },
+	{ 85065,  "eaff77d869bba2470aea751c858640f06eb8111f4d7a49536857210604fa79b0" },
 };
 } // CryptoNote
 
