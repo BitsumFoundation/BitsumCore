@@ -898,7 +898,7 @@ bool Core::addTransactionToPool(const BinaryArray& transactionBinaryArray) {
     logger(Logging::WARNING) << "Couldn't add transaction to pool due to deserialization error";
     return false;
   }
-
+  
   CachedTransaction cachedTransaction(std::move(transaction));
   auto transactionHash = cachedTransaction.getTransactionHash();
 
@@ -948,13 +948,34 @@ bool Core::addTransactionToPool(CachedTransaction&& cachedTransaction) {
 bool Core::isTransactionValidForPool(const CachedTransaction& cachedTransaction, TransactionValidatorState& validatorState) {
   uint64_t fee;
 
+  const Transaction& transaction = cachedTransaction.getTransaction();
+  uint64_t m = 0;
+  for (const TransactionInput& txin : transaction.inputs) {
+	  if (txin.type() != typeid(KeyInput)) {
+		  continue;
+	  }
+
+	  uint64_t cm = boost::get<KeyInput>(txin).outputIndexes.size();
+	  if (cm > m) {
+		  m = cm;
+	  }
+  }
+
+  if (m > 100)
+  {
+	  logger(Logging::WARNING) << "Transaction " << cachedTransaction.getTransactionHash()
+		  << " is not valid. Reason: Spam detected!";
+	  return false;
+  }
+
   if (auto validationResult = validateTransaction(cachedTransaction, validatorState, chainsLeaves[0], fee, getTopBlockIndex())) {
     logger(Logging::WARNING) << "Transaction " << cachedTransaction.getTransactionHash()
       << " is not valid. Reason: " << validationResult.message();
     return false;
   }
-
-  auto maxTransactionSize = getMaximumTransactionAllowedSize(blockMedianSize, currency);
+    
+  auto maxTransactionSize = 54400;
+  //auto maxTransactionSize = getMaximumTransactionAllowedSize(blockMedianSize, currency);
   if (cachedTransaction.getTransactionBinaryArray().size() > maxTransactionSize) {
     logger(Logging::WARNING) << "Transaction " << cachedTransaction.getTransactionHash()
       << " is not valid. Reason: transaction is too big (" << cachedTransaction.getTransactionBinaryArray().size()

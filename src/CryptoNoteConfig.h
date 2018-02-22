@@ -120,16 +120,11 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[] = "7faf1b1a49aea1f5bc50f5df7b9087b622dc9b6e5080bae33828f71a4c7b807d";
 
 const char* const SEED_NODES[] = {
-   //"80.208.225.17:18080",
-   //"80.209.227.121:18080",
    "seed1.bitsum.uz:18080",
    "seed2.bitsum.uz:18080",
    "seed3.bitsum.uz:18080",
    "seed4.bitsum.uz:18080",
    "seed5.bitsum.uz:18080",
-   //"seed1.bitsum.ml:18080",
-   //"seed2.bitsum.ml:18080",
-   //"seed3.bitsum.ml:18080",
 };
 
 struct CheckpointData {
@@ -146,7 +141,7 @@ const CheckpointData CHECKPOINTS[] = {
 	{ 60000,  "a8146d363a13f175e589be53fbe859c9b590776fc269d94707ebab2beb88a3e1" },
 	{ 70000,  "bd80a2f394caef769547ab3f838ab7bcdb4a04fe6ab003c794d2051ecf13b144" },
 	{ 80000,  "ce5ed3d782c172ef872303e01c59b99869dc1d4a9e9ac00c9d2230f26fd1df51" },
-	{ 85065,  "eaff77d869bba2470aea751c858640f06eb8111f4d7a49536857210604fa79b0" },
+	{ 90000,  "b8805db44aed06d03278c648648727095eaf232914f8b39fdf7f11fbb39df3fd" },
 };
 } // CryptoNote
 
