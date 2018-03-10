@@ -974,8 +974,8 @@ bool Core::isTransactionValidForPool(const CachedTransaction& cachedTransaction,
     return false;
   }
     
-  auto maxTransactionSize = 54400;
-  //auto maxTransactionSize = getMaximumTransactionAllowedSize(blockMedianSize, currency);
+  //auto maxTransactionSize = 54400;
+  auto maxTransactionSize = getMaximumTransactionAllowedSize(blockMedianSize, currency);
   if (cachedTransaction.getTransactionBinaryArray().size() > maxTransactionSize) {
     logger(Logging::WARNING) << "Transaction " << cachedTransaction.getTransactionHash()
       << " is not valid. Reason: transaction is too big (" << cachedTransaction.getTransactionBinaryArray().size()

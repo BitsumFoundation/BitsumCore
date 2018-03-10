@@ -143,7 +143,6 @@ const CheckpointData CHECKPOINTS[] = {
 	{ 80000,  "ce5ed3d782c172ef872303e01c59b99869dc1d4a9e9ac00c9d2230f26fd1df51" },
 	{ 90000,  "b8805db44aed06d03278c648648727095eaf232914f8b39fdf7f11fbb39df3fd" },
 	{ 100000,  "e44dca8383873edf13ee44ca5f177a6cce6aa12e46533ce2791ecbc3b36538d1" },
-	{ 100800,  "6b654f884e131f8b0e20d0dd76c0fc68a5c7d5f1d97555e86ea91a69a3debcd2" },
 };
 } // CryptoNote
 
