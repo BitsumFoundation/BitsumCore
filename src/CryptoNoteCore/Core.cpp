@@ -508,7 +508,7 @@ Difficulty Core::getDifficultyForNextBlock() const {
   auto timestamps = mainChain->getLastTimestamps(blocksCount);
   auto difficulties = mainChain->getLastCumulativeDifficulties(blocksCount);
 
-  return currency.nextDifficulty(timestamps, difficulties);
+  return currency.nextDifficulty(topBlockIndex, timestamps, difficulties);
 }
 
 std::vector<Crypto::Hash> Core::findBlockchainSupplement(const std::vector<Crypto::Hash>& remoteBlockIds,
