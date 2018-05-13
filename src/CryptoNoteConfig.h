@@ -124,7 +124,7 @@ const char* const SEED_NODES[] = {
    "seed2.bitsum.uz:28080",
    "seed3.bitsum.uz:28080",
    "seed4.bitsum.uz:28080",
-   "seed5.bitsum.uz:28080",
+//   "seed5.bitsum.uz:28080",
 };
 
 struct CheckpointData {
