@@ -79,10 +79,10 @@ const uint32_t UPGRADE_WINDOW                                = EXPECTED_NUMBER_O
 static_assert(0 < UPGRADE_VOTING_THRESHOLD && UPGRADE_VOTING_THRESHOLD <= 100, "Bad UPGRADE_VOTING_THRESHOLD");
 static_assert(UPGRADE_VOTING_WINDOW > 1, "Bad UPGRADE_VOTING_WINDOW");
 
-const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "blocksx.bin";
-const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexesx.bin";
-const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstatex.bin";
-const char     P2P_NET_DATA_FILENAME[]                       = "p2pstatex.bin";
+const char     CRYPTONOTE_BLOCKS_FILENAME[]                  = "blocks.bin";
+const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.bin";
+const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
+const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
 } // parameters
 
@@ -148,6 +148,7 @@ const CheckpointData CHECKPOINTS[] = {
 	{ 110000, "9041572d83e741652781036bc669756cfe1568b32053789fd91f17b2b1843049" },
 	{ 114595, "1cf88d40550f0aee26921008296cc775d5fd9d4d3fab3b66bf9f12fe2b25d28b" },
 	{ 120000, "7d214e3433a4d008e8e541cfe1b2749f2ae1d105a1e8694ee5c09c82d26be855" },
+	{ 130000, "80add5a415bf8c325497923e039db00de2a086a9dda95e142b03f267e7b7d0c0" },
 	
 };
 } // CryptoNote
